@@ -32,14 +32,14 @@ public class StepDefinitions {
 		
 		
 	}
-	@Before
-	public void setup() {
-		
-	}
-	@After
-	public void teardown() {
-		driver.quit();
-	}
+//	@Before
+//	public void setup() {
+//		
+//	}
+//	@After
+//	public void teardown() {
+//		driver.quit();
+//	}
 
 	@When("^user should be able to type user name$")
 	public void user_should_be_able_to_type_user_name() throws Throwable {

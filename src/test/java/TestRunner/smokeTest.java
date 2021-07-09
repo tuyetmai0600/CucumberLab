@@ -9,12 +9,12 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = {"src/test/java/features"},
 		glue = {"StepDef"},
-		plugin = {"pretty","html:target/cucumber-reports"}
-		
+		plugin = {"pretty","html:target/cucumber-reports"},
+		tags = {"@smoke"}
 		
 		
 		)
 
-public class regressionTest {
+public class smokeTest {
 
 }

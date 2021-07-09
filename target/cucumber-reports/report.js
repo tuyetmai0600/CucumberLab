@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 3,
+  "line": 5,
   "name": "validating if the login element are present",
   "description": "",
   "id": "validating-the-login-elements;validating-if-the-login-element-are-present",
@@ -15,55 +15,70 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 2,
+      "line": 4,
       "name": "@smoke"
     }
   ]
 });
 formatter.step({
-  "line": 5,
+  "line": 7,
   "name": "user is on the login page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "user should be able to type user name",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
+  "line": 10,
   "name": "user should be able to type the password",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
+  "line": 11,
   "name": "user should be able to click on login",
   "keyword": "When "
 });
 formatter.step({
-  "line": 11,
+  "line": 13,
   "name": "user should be in the user homepage",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinitions.user_is_on_the_login_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 3928923214,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinitions.user_should_be_able_to_type_user_name()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 102122868,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "StepDefinitions.user_should_be_able_to_type_the_password()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 56237675,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_should_be_able_to_click_on_login()"
+});
+formatter.result({
+  "duration": 78220383,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_should_be_in_the_user_homepage()"
+});
+formatter.result({
+  "duration": 8683358,
+  "status": "passed"
 });
 formatter.uri("SauceData.feature");
 formatter.feature({
@@ -199,25 +214,59 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinitions.user_is_on_the_login_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 3260565584,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": " standard_user",
+      "offset": 12
+    }
+  ],
+  "location": "StepDefinitions.user_enter_in_the_userid_text_box(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 103712573,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cpassword \u003e",
+      "offset": 12
+    }
+  ],
+  "location": "StepDefinitions.user_enter_in_the_password_text_box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 56065178,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_click_the_login_button()"
+});
+formatter.result({
+  "duration": 46199858,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.saucedemo.com/inventory.html",
+      "offset": 38
+    }
+  ],
+  "location": "StepDefinitions.user_should_navigate_to_the_expected(String)"
+});
+formatter.result({
+  "duration": 4496977,
+  "error_message": "java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\n\tat org.testng.Assert.assertEquals(Assert.java:122)\n\tat org.testng.Assert.assertEquals(Assert.java:629)\n\tat org.testng.Assert.assertEquals(Assert.java:639)\n\tat StepDef.StepDefinitions.user_should_navigate_to_the_expected(StepDefinitions.java:86)\n\tat ✽.Then user should navigate to the expected \"https://www.saucedemo.com/inventory.html\"(SauceData.feature:8)\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 13,
@@ -258,25 +307,58 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinitions.user_is_on_the_login_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 3189933543,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": " locked_out_user",
+      "offset": 12
+    }
+  ],
+  "location": "StepDefinitions.user_enter_in_the_userid_text_box(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 100540313,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cpassword \u003e",
+      "offset": 12
+    }
+  ],
+  "location": "StepDefinitions.user_enter_in_the_password_text_box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 56127090,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_click_the_login_button()"
+});
+formatter.result({
+  "duration": 47514832,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.saucedemo.com/",
+      "offset": 38
+    }
+  ],
+  "location": "StepDefinitions.user_should_navigate_to_the_expected(String)"
+});
+formatter.result({
+  "duration": 4213227,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 14,
@@ -317,25 +399,58 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinitions.user_is_on_the_login_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 3314178509,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": " problem_user",
+      "offset": 12
+    }
+  ],
+  "location": "StepDefinitions.user_enter_in_the_userid_text_box(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 100792876,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cpassword \u003e",
+      "offset": 12
+    }
+  ],
+  "location": "StepDefinitions.user_enter_in_the_password_text_box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 55868864,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_click_the_login_button()"
+});
+formatter.result({
+  "duration": 50476492,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.saucedemo.com/",
+      "offset": 38
+    }
+  ],
+  "location": "StepDefinitions.user_should_navigate_to_the_expected(String)"
+});
+formatter.result({
+  "duration": 3123652,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 15,
@@ -376,24 +491,57 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepDefinitions.user_is_on_the_login_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 9904412031,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": " performance_glitch_user",
+      "offset": 12
+    }
+  ],
+  "location": "StepDefinitions.user_enter_in_the_userid_text_box(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 103445335,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cpassword \u003e",
+      "offset": 12
+    }
+  ],
+  "location": "StepDefinitions.user_enter_in_the_password_text_box(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 53758037,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_click_the_login_button()"
+});
+formatter.result({
+  "duration": 44107935,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.saucedemo.com/",
+      "offset": 38
+    }
+  ],
+  "location": "StepDefinitions.user_should_navigate_to_the_expected(String)"
+});
+formatter.result({
+  "duration": 3318317,
+  "status": "passed"
 });
 });
